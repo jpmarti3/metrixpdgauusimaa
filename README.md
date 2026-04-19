@@ -64,9 +64,10 @@ Open [http://localhost:3000](http://localhost:3000).
    - **Build command:** `npx @cloudflare/next-on-pages`
    - **Root directory:** `/`
    - Leave Deploy command and Version command as defaults
+   - The `wrangler.toml` in the repo configures the rest automatically
 
 5. **Click Deploy**
-   - Cloudflare will install dependencies and build the project
+   - Cloudflare will install dependencies, build, and deploy
    - Once done, you get a URL like `https://dgm-finder.pages.dev`
 
 6. **(Optional) Custom domain**
