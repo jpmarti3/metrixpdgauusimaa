@@ -62,7 +62,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 4. **Configure the build**
    - **Build command:** `npx @cloudflare/next-on-pages`
-   - **Deploy command:** `npx wrangler pages deploy .vercel/output/static`
+   - **Deploy command:** `npx wrangler pages deploy .vercel/output/static --project-name=dgm-finder`
    - **Root directory:** `/`
    - The `wrangler.toml` in the repo configures compatibility flags
 
