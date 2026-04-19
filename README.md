@@ -61,20 +61,16 @@ Open [http://localhost:3000](http://localhost:3000).
    - Click **Begin setup**
 
 4. **Configure the build**
-   | Setting | Value |
-   |---------|-------|
-   | Production branch | `main` |
-   | Build command | `npx @cloudflare/next-on-pages` |
-   | Build output directory | `.vercel/output/static` |
+   - **Build command:** `npx @cloudflare/next-on-pages`
+   - **Root directory:** `/`
+   - Leave Deploy command and Version command as defaults
 
-5. **Click Deploy & Wait**
+5. **Click Deploy**
    - Cloudflare will install dependencies and build the project
-   - This takes 1-2 minutes
    - Once done, you get a URL like `https://dgm-finder.pages.dev`
 
-6. **(Optional) Add a custom domain**
-   - Go to your project in Cloudflare → **Custom domains**
-   - Click **Set up a custom domain**
+6. **(Optional) Custom domain**
+   - Go to your project → **Settings → Custom domains**
    - Follow the DNS instructions
 
 ### Subsequent deploys
